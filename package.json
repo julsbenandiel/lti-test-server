@@ -1,0 +1,18 @@
+{
+  "name": "lti-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon test2.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ims-lti": "^3.0.2",
+    "ltijs": "^5.9.2",
+    "nodemon": "^2.0.22",
+    "oauth-signature": "^1.5.0",
+    "passport": "^0.6.0",
+    "passport-lti": "^0.0.7"
+  }
+}
